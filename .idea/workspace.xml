@@ -31,16 +31,52 @@
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="59" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+            <state line="3" column="2" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="assets_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="assets_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/assets_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="4" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.7763636">
+            <state line="51" column="49" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="4" selection-start="132" selection-end="132" vertical-scroll-proportion="-3.2692308">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="166" column="3" selection-start="2650" selection-end="2650" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/assets/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="48" selection-start="97" selection-end="97" vertical-scroll-proportion="0.13682093">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20130225083554_create_assets.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20130225083554_create_assets.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="4" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -58,7 +94,7 @@
       <file leaf-file-name="asset.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/asset.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="30" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
+            <state line="15" column="5" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -67,7 +103,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/assets/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="8" selection-start="112" selection-end="112" vertical-scroll-proportion="-4.576923">
+            <state line="15" column="42" selection-start="482" selection-end="482" vertical-scroll-proportion="-9.807693">
               <folding />
             </state>
           </provider>
@@ -83,11 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-3.2.8/lib/active_record/base.rb" />
@@ -96,9 +127,14 @@
         <option value="$PROJECT_DIR$/app/views/assets/_form.html.erb" />
         <option value="C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/paperclip-2.8.0/lib/paperclip.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/assets_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/assets/index.html.erb" />
         <option value="$PROJECT_DIR$/app/models/asset.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/assets_controller.rb" />
+        <option value="$PROJECT_DIR$/config/environment.rb" />
+        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/app/views/assets/new.html.erb" />
       </list>
     </option>
   </component>
@@ -211,6 +247,10 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -226,7 +266,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharebox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharebox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -514,62 +572,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="1051" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="43" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="74" selection-start="1446" selection-end="1446" vertical-scroll-proportion="0.8727273">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-3.2.8/lib/active_record/base.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="55" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130225075404_devise_create_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="25" selection-start="365" selection-end="365" vertical-scroll-proportion="0.30195382">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130225083554_create_assets.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="39" selection-start="231" selection-end="231" vertical-scroll-proportion="0.39253998">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/assets/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="11" selection-start="240" selection-end="240" vertical-scroll-proportion="0.22160149">
@@ -591,13 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="59" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="18" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
@@ -605,23 +600,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/assets/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130225083554_create_assets.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="8" selection-start="112" selection-end="112" vertical-scroll-proportion="-4.576923">
+        <state line="8" column="4" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/asset.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="35" selection-start="116" selection-end="116" vertical-scroll-proportion="0.13001911">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/assets_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="4" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.7763636">
+        <state line="51" column="49" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/asset.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="5" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/assets/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="42" selection-start="482" selection-end="482" vertical-scroll-proportion="-9.807693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="2" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="51" selection-start="257" selection-end="257" vertical-scroll-proportion="0.21136767">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="132" selection-end="132" vertical-scroll-proportion="-3.2692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="16" selection-start="1035" selection-end="1035" vertical-scroll-proportion="-16.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="166" column="3" selection-start="2650" selection-end="2650" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/assets/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="48" selection-start="97" selection-end="97" vertical-scroll-proportion="0.13682093">
           <folding />
         </state>
       </provider>

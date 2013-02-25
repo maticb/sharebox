@@ -11,4 +11,8 @@ class Asset < ActiveRecord::Base
 
   validates_attachment_size :uploaded_file, :less_than => 10.megabytes
   validates_attachment_presence :uploaded_file
+  def file_size
+    uploaded_file_file_size
+  end
+
 end
