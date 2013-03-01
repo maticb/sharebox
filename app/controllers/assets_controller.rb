@@ -63,13 +63,29 @@ class AssetsController < ApplicationController
 
   #this action will let the users download the files (after a simple authorization check)
   def get
+    # first find the asset within own assets
     asset = current_user.assets.find_by_id(params[:id])
+
+    # if not found in own assets, check if the current_user has share access to the parent folder of the file
+    asset ||= Asset.find(params[:id]) if current_user.has_share_access?(Asset.find_by_id(params[:id]).folder)
+
     if asset
+      # Parse the URL for special characters first before downloading
+      #data = open(asset.uploaded_file.url)
+
+      # use the send_data method to send the above bindary "data" as a file
+      #send_data data, :filename => asset.file_name
+
+
       send_file asset.uploaded_file.path, :type => asset.uploaded_file_content_type
 
-  else
-    flash[:error] = "Don't be cheeky! Mind your own assets!"
-    redirect_to assets_path
+
+      #redirect to amazon S3 url which will let the user download the file automatically
+      # redirect_to asset.uploaded_file.url, :type => asset.uploaded_file_content_type
+    else
+      flash[:error] = "Don't be cheeky! Mind your own assets!"
+      redirect_to assets_path
+    end
   end
-end
+
 end

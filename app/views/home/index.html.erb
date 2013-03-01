@@ -27,8 +27,8 @@
 
       <!-- Listing Folders -->
       <% @folders.each do |folder| %>
-          <div class="asset_details folder">
-            <div class="file_name"><%= link_to folder.name, browse_path(folder) %></div>
+          <div class="asset_details <%= folder.shared? ? 'shared_folder' : 'folder' %>" id="folder_<%= folder.id %>">
+          <div class="file_name"><%= link_to folder.name, browse_path(folder) %></div>
             <div class="file_size">-</div>
             <div class="file_last_updated">-</div>
             <div class="actions">
