@@ -16,6 +16,7 @@ class User < ActiveRecord::Base
   has_many :shared_folders, :dependent => :destroy
   has_many :being_shared_folders, :class_name => "SharedFolder", :foreign_key => "shared_user_id", :dependent => :destroy
   has_many :shared_folders_by_others, :through => :being_shared_folders, :source => :folder
+  #this is for getting Folders objects which the user has been shared by other users
 
 
   after_create :check_and_assign_shared_ids_to_shared_folders
@@ -34,22 +35,21 @@ class User < ActiveRecord::Base
   end
 
   # to check if a user has access to this specific folder
+  #to check if a user has acess to this specific folder
   def has_share_access?(folder)
-    # doesn't have share access if folder is nil (i.e., file is top-level)
-    return false if folder.nil?
-
-    # has share access if the folder is one of his own
+    #has share access if the folder is one of one of his own
     return true if self.folders.include?(folder)
 
-    # has share access if the folder is one of the shared_folders_by_others
+    #has share access if the folder is one of the shared_folders_by_others
     return true if self.shared_folders_by_others.include?(folder)
 
-    # for checking sub folders under one of the being_shared_folders
+    #for checking sub folders under one of the being_shared_folders
     return_value = false
 
     folder.ancestors.each do |ancestor_folder|
+
       return_value = self.being_shared_folders.include?(ancestor_folder)
-      if return_value # if its true
+      if return_value #if it's true
         return true
       end
     end
