@@ -26,7 +26,7 @@ class FoldersController < ApplicationController
       flash[:notice] = "Successfully created folder."
 
       if @folder.parent #checking if we have a parent folder on this one
-        redirect_to browse_path(@folder.parent)  #then we redirect to the parent folder
+        redirect_to browse_path(@folder.parent) #then we redirect to the parent folder
       else
         redirect_to root_url #if not, redirect back to home page
       end
@@ -37,13 +37,13 @@ class FoldersController < ApplicationController
 
   def edit
     @folder = current_user.folders.find(params[:folder_id])
-    @current_folder = @folder.parent    #this is just for breadcrumbs
+    @current_folder = @folder.parent
   end
 
   def update
     @folder = current_user.folders.find(params[:id])
     if @folder.update_attributes(params[:folder])
-      redirect_to @folder, :notice  => "Successfully updated folder."
+      redirect_to @folder, :notice => "Successfully updated folder."
     else
       render :action => 'edit'
     end
@@ -65,6 +65,4 @@ class FoldersController < ApplicationController
       redirect_to root_url
     end
   end
-
-
 end

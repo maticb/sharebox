@@ -52,7 +52,7 @@
                 <%= link_to "Rename", rename_folder_path(folder) unless @is_this_folder_being_shared%>
               </div>
               <div class="delete">
-                <%= link_to "Delete", @asset, :confirm => 'Are you sure?', :method => :delete unless @is_this_folder_being_shared%>
+                <%= link_to "Delete", folder, :confirm => 'Are you sure to delete the folder and all of its contents?', :method => :delete unless @is_this_folder_being_shared%>
               </div>
             </div>
           </div>

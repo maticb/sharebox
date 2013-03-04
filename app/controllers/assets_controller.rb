@@ -60,7 +60,6 @@ class AssetsController < ApplicationController
     end
   end
 
-
   #this action will let the users download the files (after a simple authorization check)
   def get
     # first find the asset within own assets
