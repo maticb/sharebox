@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 gem 'rails', '3.2.8'
 
@@ -6,13 +6,10 @@ gem 'rails', '3.2.8'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 
-group :production, :staging do
-  gem "pg"
-end
 
-group :development, :test do
-  gem "sqlite3-ruby", "~> 1.3.0", :require => "sqlite3"
-end
+gem 'sqlite3', '1.3.7'
+
+#gem 'pg', '0.12.2'
 
 # Gems used only for assets and not required
 # in production environments by default.
